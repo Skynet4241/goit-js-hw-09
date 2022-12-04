@@ -16,3 +16,38 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#datetime-picker {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18;
+}
+
+button {
+  font-size: 18;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 20px;
+
+}
+
+.label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15;
+}
+
+.value {
+  font-family: 'Franklin Gothic Medium',
+    'Arial Narrow',
+    Arial,
+    sans-serif;
+  font-size: 35;
+}
